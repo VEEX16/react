@@ -1,0 +1,140 @@
+/* Tables */
+
+.table {
+  margin-bottom: 0;
+  color: $table-color;
+  thead {
+    th {
+      border-top: 0;
+      border-bottom-width: 1px;
+      font-family: $type1;
+      font-weight: 500;
+      i {
+        margin-left: 0.325rem;
+      }
+    }
+  }
+  th,
+  td {
+    vertical-align: middle;
+    font-size: $default-font-size;
+    line-height: 1;
+    white-space: nowrap;
+    padding:12px 15px;
+    img {
+      width: 36px;
+      height: 36px;
+      border-radius: 100%;
+    }
+    .badge {
+      margin-bottom: 0;
+    }
+  }
+  &.table-borderless{
+    border: none;
+    tr,td,th{
+      border: none;
+    }
+  }
+  &.table-striped {
+    tbody {
+      tr {
+        &:nth-child(odd) {
+          background: $table-accent-bg;
+        }
+
+        &:nth-child(even) {
+          background: transparent;
+        }
+      }
+    }
+  }
+}
+
+.first {
+  .badge{
+    font-size: 25px;
+  }
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  margin-bottom: 0;
+  color: $table-color;
+  td {
+    vertical-align: middle;
+    font-size: 25px;
+    line-height: 1;
+    white-space: nowrap;
+    padding:12px 15px;
+    background-color: #d8ff000d;
+    img {
+      width: auto;
+      height: 60px;
+      border-radius: 0%;
+    }
+    .badge {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.top {
+  .badge{
+    font-size: 22px;
+  }
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  margin-bottom: 0;
+  color: $table-color;
+  td {
+    vertical-align: middle;
+    font-size: 22px;
+    line-height: 1;
+    white-space: nowrap;
+    padding:12px 15px;
+    img {
+
+      width: auto;
+      height: 45px;
+      border-radius: 0%;
+    }
+    .badge {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.next {
+  .badge{
+    font-size: 18px;
+  }
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  margin-bottom: 0;
+  color: $table-color;
+  td {
+    vertical-align: middle;
+    font-size: 18px;
+    line-height: 1;
+    white-space: nowrap;
+    padding:12px 15px;
+    img {
+      width: auto;
+      height: 35px;
+      border-radius: 0%;
+    }
+    .badge {
+      margin-bottom: 0;
+    }
+  }
+}
+
+

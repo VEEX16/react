@@ -1,0 +1,104 @@
+.bs{
+  height: 1080px;
+  width:1920px;
+  
+  h1{
+    text-align: center;
+    margin:0px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+  }
+  .vs{
+    margin-top: 165px;
+    h1{
+      color: #a40000;
+      font-weight: 600;
+      font-size: 200px;
+    }
+  }
+  .logo{
+    width:500px;
+    height:500px;
+    img{
+      width:400px;
+      height: auto;
+      overflow: auto;
+      margin: auto;
+      position: absolute;
+      top: 0; left: 0; bottom: 0; right: 0;
+    }
+  }
+  .logo-l{
+      margin-left: 33px;
+  }
+  .logo-r{
+      margin-left: 91px;
+  }
+  .counter{
+    margin-top: -60px;
+    h1{
+      font-size: 80px;
+      color: rgba(2,0,34,1)
+    }
+  }
+  
+}
+
+.bs-title{
+  background: rgb(1,23,51);
+  background: radial-gradient(circle, rgba(1,23,51,1) 0%, rgba(2,0,34,1) 80%);
+  margin-top: 65px;
+  clip-path: polygon(2% 100%, 98% 100%, 100% 0, 0 0);
+  border-top: 10px solid #A40000;
+  letter-spacing: 4px;
+  h1{
+    font-weight: 600;
+    font-size:72px
+  }
+  .card-body{
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+
+.bs-footer{
+  background: rgb(1,23,51);
+  background: radial-gradient(circle, rgba(1,23,51,1) 0%, rgba(2,0,34,1) 80%);
+  margin-top: 60px;
+  clip-path: polygon(2% 100%, 98% 100%, 100% 0, 0 0);
+  border-bottom: 10px solid #A40000;
+  letter-spacing: 4px;
+  h1{
+    font-weight: 600;
+    font-size:72px
+  }
+  .card-body{
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+
+.bs-content{
+  margin-top: 60px;
+}
+
+.bs-desc{
+  margin-top:20px;
+}
+
+.bs-team{
+  background: rgb(1,23,51);
+  background: radial-gradient(circle, rgba(1,23,51,1) 0%, rgba(2,0,34,1) 80%);
+}
+.left{
+  clip-path: polygon(0% 100%, 85.5% 100%, 85.5% 0, 5.5% 0);
+  h1{
+    margin-right: 50px;
+  }
+}
+.right{
+  clip-path: polygon(14.5% 100%, 100% 100%, 95% 0, 14.5% 0);
+  h1{
+    margin-left: 50px;
+  }
+}

@@ -1,0 +1,137 @@
+.vs {
+  font-weight: 400;
+  p {
+    font-size:40px !important;
+    text-align:center;
+    color: $matches-vs;
+    font-size: inherit;
+    padding:5px;
+    margin:0px
+  }
+  @media (max-width: 991px) {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+.team{
+  background-color: #343a40;
+  padding: 10px;
+  text-align: center;
+  p{
+  font-size:30px;
+  margin-bottom: 0px;
+  }
+  .logo{
+    padding-left: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    img{
+    width: auto;
+    height: 40px;
+    }
+  }
+}
+.logo{
+  border: #343a40;
+  border-style: solid;
+  border-width: 2px;
+  // background-color: #343a40;
+  padding: 5px;
+  img{
+  width: auto;
+  height: 52px;
+  }
+}
+
+.title{
+  p{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 40px;
+  }
+}
+
+.players{
+  p{
+    font-size: 18px;
+    font-weight: 300;
+    border: #343a40;
+    border-style: solid;
+    border-width: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    margin-top:16px;
+  }
+  .right{
+    p{
+      margin-left: 50px;
+      padding-right: 20px;
+      padding-left: 20px;
+      text-align: right;
+    }
+  }
+  .left{
+    p{
+      margin-right: 50px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+}
+
+.live{
+  margin-top: 20px;
+}
+
+/* Tooltip container */
+.tooltip {
+  border-bottom: 1px dotted #ffffff;
+}
+
+.flip{
+  background-color: #ffffff00;
+}
+
+.pause{
+  margin: 5px;
+}
+
+.round-name{
+  padding-bottom: 0px !important;
+  button{
+    margin-bottom: 10px;
+  }
+  p{
+  margin-top: 15px;
+  text-align: center;
+  }
+}
+
+.playoff{
+  h3{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+  }
+  .tba{
+    font-style: italic;
+    font-size: 11px;
+  }
+  .center{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+  }
+  .semifinal{
+    margin-top: 180px;
+    margin-bottom: 258px;
+  }
+  .final{
+    margin-top: 340px;
+  }
+}
+
